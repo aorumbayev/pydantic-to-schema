@@ -4,3 +4,4 @@
   entry: pydantic-to-schema
   language: python
   types: [python]
+  pass_filenames: false

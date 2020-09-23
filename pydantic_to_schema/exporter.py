@@ -42,7 +42,11 @@ def main():
                         metavar="FILE",
                         required=True)
 
-    parser.add_argument("--output", help="Output folder path", metavar="FILE")
+    parser.add_argument("--output",
+                        help="Output folder path",
+                        metavar="FILE",
+                        required=True)
+
     args = parser.parse_args()
     export_models(args.input, args.output)
 
