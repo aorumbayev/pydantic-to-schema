@@ -13,7 +13,8 @@ from pydantic import BaseModel
 def export_models(input_folder: str, output_folder: str):
     dirpath = path.join(pathlib.Path().absolute(), input_folder)
     out_path = path.join(pathlib.Path().absolute(), output_folder)
-
+    print(dirpath)
+    print(out_path)
     if path.exists(out_path) and path.isdir(out_path):
         rmtree(out_path)
 
