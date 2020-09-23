@@ -1,0 +1,4 @@
+pytest
+yapf
+isort
+pylint
